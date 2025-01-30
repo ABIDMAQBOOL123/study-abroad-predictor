@@ -18,7 +18,7 @@ const checkEligibility = async (req, res) => {
     }
   }
 
-  // Save user data
+
   const user = new User({
     cgpa,
     workExperience,
